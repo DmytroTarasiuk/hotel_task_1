@@ -445,7 +445,7 @@ form .submit-btn:active {
         width: 40%;
     }
     .header {
-        height: 15vh;
+        height: 10vh;
     }
     
     .main {
@@ -453,8 +453,11 @@ form .submit-btn:active {
     }
     .navbar {
         width: 100%;
-        height: 35vh;
+        height: 10vh;
         padding: 0;
+    }
+    .navbar.about {
+        height: 10vh;
     }
     .footer {
         position: absolute;
@@ -483,7 +486,7 @@ form .submit-btn:active {
     }
 
     .hotel-header {
-        height: 22vh;
+        height: 20vh;
         padding: 1rem 0;
         flex-direction: column;
     }
@@ -546,6 +549,74 @@ form .submit-btn:active {
     }
 }
 
+@media (max-width: 768px) {
+    .navbar {
+        width: 100%;
+        height: 10vh;
+        padding: 0;
+    }
+    .navbar.about {
+        height: 5vh;
+    }
+    .hotel-header {
+        height: 20vh;
+        padding: 1rem 0;
+        flex-direction: column;
+    }
+    
+    .hotel-header.about {
+        height: 10vh;
+        flex-direction: row;
+    }
+}
+
+@media (max-width: 720px) {
+    .navbar.about {
+        height: 10vh;
+    }
+}
+
+@media (max-width: 653px) {
+    .navbar {
+        width: 100%;
+        height: 15vh;
+        padding: 0;
+    }
+    .navbar.about {
+        height: 15vh;
+    }
+    .hotel-header {
+        height: 20vh;
+        padding: 1rem 0;
+        flex-direction: column;
+    }
+    
+    .hotel-header.about {
+        height: 10vh;
+        flex-direction: row;
+    }
+}
+
+@media (max-width: 640px) {
+    .navbar {
+        width: 100%;
+        height: 15vh;
+        padding: 0;
+    }
+    .navbar.about {
+        height: 15vh;
+    }
+    .hotel-header {
+        height: 25vh;
+        padding: 1rem 0;
+        flex-direction: column;
+    }
+    
+    .hotel-header.about {
+        height: 10vh;
+        flex-direction: row;
+    }
+}
 
 @media (max-width: 550px) {
     .reviews {
@@ -566,5 +637,24 @@ form .submit-btn:active {
     
     .red-underline.short {
         width: 100%;
+    }
+
+    .navbar {
+        width: 100%;
+        height: 10vh;
+        padding: 0;
+    }
+    .navbar.about {
+        height: 8vh;
+    }
+    .hotel-header {
+        height: 20vh;
+        padding: 1rem 0;
+        flex-direction: column;
+    }
+    
+    .hotel-header.about {
+        height: 10vh;
+        flex-direction: row;
     }
 }
