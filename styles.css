@@ -445,7 +445,7 @@ form .submit-btn:active {
         width: 40%;
     }
     .header {
-        height: 20vh;
+        height: 15vh;
     }
     
     .main {
@@ -453,7 +453,7 @@ form .submit-btn:active {
     }
     .navbar {
         width: 100%;
-        height: 20vh;
+        height: 35vh;
         padding: 0;
     }
     .footer {
